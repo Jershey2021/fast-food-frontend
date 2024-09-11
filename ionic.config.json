@@ -1,0 +1,7 @@
+{
+  "name": "fast-food-frontend",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
