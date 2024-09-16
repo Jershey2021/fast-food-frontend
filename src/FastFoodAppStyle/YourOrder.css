@@ -1,0 +1,450 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+.yourOrderPage{
+    position: relative;
+    top: 35px;
+    height: 60px;
+}
+
+.yourOrderBackButton{
+    position: relative;
+    top:  3px;
+    left: 15px;
+    background: #DEE2E6;
+    border-radius: 15px;
+    box-shadow: none;
+    width: 37px;
+    height: 37px;
+}
+
+.yourOrderBackButtonIcon{
+    position: relative;
+    left: -1px;
+    color: #6C757D;
+    width: 9.74px;
+    height: 13.21px;
+    top: -2px;
+}
+
+.yourOrderNameCategory{
+    position: relative;
+    top: -31px;
+    left: 73px;
+    color: #000000;
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.yourOrderAddToCartIcon{
+    position: relative;
+    width: 22.5px;
+    height: 19.12px;
+    top: -68px;
+    left: 330px;
+
+}
+
+.yourOrderImagePage{
+    position: relative;
+    top: 25px;
+    height: 260px;
+}
+
+.yourOrderImageBackground{
+    position: relative;
+    width: 343px;
+    height: 239px;
+    background-color: #E9ECEF;
+    border-radius: 16px;
+    top: 10px;
+    left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yourOrderImage{
+    position: relative;
+    width: 258px;
+    height: 174px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.yourOrderLikeButton{
+    position: relative;
+    width: 45px;
+    height: 45px;
+    --border-radius: 18px;
+    --background: #FFFFFF;
+    left: 295px;
+    top: -17px;
+    --box-shadow: 2px 2px 10px 2.5px #00000029;}
+
+.yourOrderInformationPage{
+    position: relative;
+    top: 25px;
+    height: 155px;
+}
+
+.yourOrderFoodName{
+    position: relative;
+    top: 5px;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    left: 15px;
+}
+
+.yourOrderRatings{
+    position: relative;
+    left: 15px;
+    width: 85px;
+    color: #FFC02E;
+    top: 10px;
+}
+
+.yourOrderFoodDescription{
+    position: relative;
+    left: 15px;
+    top: 15px;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    color: #6C757D;
+    font-weight: 400;
+    width: 345px;
+}
+
+.yourOrderPriceQtyPage{
+    position: relative;
+    top: 25px;
+    height: 55px;
+}
+
+.yourOrderPrice{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #D71921;
+}
+
+.yourOrderRemoveButton{
+    position: relative;
+    top: -31px;
+    height: 32px !important;
+    width: 32px !important;
+    border-radius: 12px;
+    background:rgba(0, 0, 0, 0.1);
+    box-shadow: none;
+    left: 239px;
+    
+}
+
+.yourOrderRemoveIcon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: #f70000;
+    top: 13px;
+    left: 245px;
+    cursor: pointer;
+
+} 
+
+
+.yourOrderQty{
+    position: relative;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    top: -64px;
+    left: 288px;
+}
+
+.yourOrderAddButton{
+    position: relative;
+    top: -106px;
+    height: 32px;
+    width: 32px;
+    border-radius: 12px;
+    background:rgba(0, 0, 0, 0.1);
+    box-shadow: none;
+    left: 310px;
+}
+
+.yourOrderAddIcon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: #f70000;
+    top: 13px;
+    left: 316px;
+    cursor: pointer;
+
+} 
+
+.yourOrderBeveragesPage{
+    position: relative;
+    top: 25px;
+    height: 180px;
+}
+
+.yourOrderBeveragesLabel{
+    position: relative;
+    top: 10px;
+    left: 15px;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.yourOrderBeveragesDropDown{
+    position: relative;
+    top: 10px;
+    left: 15px;
+    background-color: #F8F9FA;
+    border: 1px solid #DEE2E6;
+    width: 343px;
+    height: 60px;
+    border-radius: 16px;
+    padding-left: 10px;
+}
+
+select{
+    color: #D71921;   
+}
+
+.yourOrderPlaceholderBeverages{
+    position: absolute;
+    z-index: 1;
+    font-family: "Nunito", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #6C757D;
+    top: 45px;
+    left: 30px;
+}
+
+.yourOrderBeveragesSize{
+    position: relative;
+    top: 20px;
+    left: 15px;
+}
+
+.yourOrderRegular{
+    --background: #FFC02E;
+    --box-shadow: none;
+    --border-radius: 14px;
+    width: 109px;
+    height: 45px;
+    text-transform: none;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.yourOrderLarge{
+    --background: transparent;
+    --box-shadow: none;
+    border-radius: 14px;
+    border: 1px solid #DEE2E6;
+    width: 110px;
+    height: 45px;
+    text-transform: none;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.yourOrderExtraLarge{
+    --background: transparent;
+    --box-shadow: none;
+    border-radius: 14px;
+    border: 1px solid #DEE2E6;
+    width: 110px;
+    height: 45px;
+    text-transform: none;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.yourOrderAddOnsPage{
+    position: relative;
+    top: 25px;
+    height: 590px;
+}
+
+.yourOrderAddOnsLabel{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-weight: 700;   
+}
+
+.yourOrderAddOnsBackground{
+    position: relative;
+    width: 343px;
+    height: 100px;
+    background: #E9ECEF;
+    left: 15px;
+    border-radius: 16px;
+    top: 20px;
+}
+
+.yourOrderAddOnsBackgroundTwo{
+    position: relative;
+    width: 343px;
+    height: 100px;
+    background: #E9ECEF;
+    left: 15px;
+    border-radius: 16px;
+    top: 30px;
+}
+
+.yourAddOnsTomatoSauce, .yourAddOnsWhiteRice{
+    position: relative;
+    width: 78px;
+    height: 78px;
+    top: 7px;
+    left: 12px;
+}
+
+.yourAddOnsLabel, .yourAddOnsLabel{
+    position: relative;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    top: -60px;
+    left: 95px;
+}
+
+.yourAddOnsCategory{
+    position: relative;
+    font-family: "Nunito," sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000;
+    top: -67px;
+    left: 95px;
+}
+
+.yourAddOnsPrice{
+    position: relative;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    top: -77px;
+    left: 95px;
+    color: #D71921;
+}
+
+.AddOnsRemoveButton{
+    position: relative;
+    top: -127.5px;
+    border-radius: 12px;
+    background:rgba(0, 0, 0, 0.1);
+    box-shadow: none;
+    left: 225px;
+    width: 32px;
+    height: 32px;
+}
+
+.yourAddOnsRemoveIcon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: #f70000;
+    top: 55px;
+    left: 231px;
+    cursor: pointer;
+
+}
+
+.yourAddOnsQty{
+    position: relative;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    top: -161.5px;
+    left: 270px;
+}
+
+.yourAddOnsAddButton{
+    position: relative;
+    top: -203.5px;
+    height: 32px;
+    width: 32px;
+    border-radius: 12px;
+    background:rgba(0, 0, 0, 0.1);
+    box-shadow: none;
+    left: 290px;
+}
+
+.yourAddOnsAddIcon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: #f70000;
+    top: 55px;
+    left: 296px;
+    cursor: pointer;
+}
+
+.yourAddOnsCheckBox{
+    position: relative;
+    width: 18px;
+    height: 18px;
+    background:rgba(255, 255, 255, 1);
+    border-radius: 6px;
+    top: -255px;
+    left: 272px;
+    --checkbox-background-checked: #ffffff;
+    --border-color-checked: #ffffff;
+    --checkmark-color: #e0ac08;
+    --border-color: transparent;
+    --border-radius: 6px;
+}
+
+
+
+.AddToBagButton{
+    position: absolute;
+    top: 1050px;
+    z-index: 5;
+}
+
+.yourOrderAddToBag{
+    position: fixed;
+    width: 343px;
+    height: 60px;
+    left: 13px;
+    --background: rgba(215, 25, 33, 1) !important;
+    top: 532px;
+    --border-radius: 16px;
+    z-index: 10;
+}
+
+
+ion-modal{
+    position: relative;
+    width: 327px;
+    height: 298px;
+    top: 150px;
+    left: 22.5px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.16);
+   
+}
+

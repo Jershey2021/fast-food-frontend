@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+.OrderReceivedPage{
+    position: relative;
+    top: 120px;
+}
+
+.orderReceivedMoonPage{
+    position: fixed;
+    top: 110px;
+}
+
+.orderReceivedFullMoon{
+    position: fixed;
+    left: 113.5px;
+    width: 145.46px;
+    height: 145.46px;
+}
+
+.orderReceivedHalfMoon{
+    position: fixed;
+    width: 84.04px;
+    height: 145.46px;
+    left: 174.5px;
+}
+
+.orderReceivedLongSleeve{
+    position: fixed;
+    width: 89.05px;
+    height: 89.24px;
+    transform: rotate(-4deg);
+    left: 115px;
+    top: 162px;
+}
+
+.orderReceivedSleeve{
+    position: fixed;
+    width: 59.7px;
+    height: 72.49px;
+    transform: rotate(-3.5deg);
+    left: 158px;
+    top: 150px;
+    z-index: 10;
+}
+
+.orderReceivedLikeHand{
+    position: fixed;
+    width: 94.55px;
+    height: 108.43px;
+    left: 180px;
+    transform: rotate(-1deg);
+    top: 96px;
+}
+
+.orderRecievedLabelPage{
+    position: relative;
+    top: 125px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.orderReceivedLabel{
+    position: relative;
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+    top: 35px;
+    left: 6px;
+}
+
+.orderReceivedOrderNumberPage{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    top: 100px;
+}
+
+.orderReceivedOrderNumberPage span{
+   color: rgba(215, 25, 33, 1);
+   font-weight: 700;
+}
+
+.orderReceivedOrderNo{
+    position: relative;
+    top: 18px;
+    font-size: 14px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    color: rgba(108, 117, 125, 1);
+    max-width: 350px;
+
+}
+
+.orderReceivedTrackOrderPage{
+    position: relative;
+    top: 184.5px;
+    height: 130.5px;
+
+}
+
+.trackOrderButton{
+    position: fixed;
+    width: 343px;
+    height: 60px;
+    background: rgba(215, 25, 33, 1);
+    border-radius: 16px;
+    left: 14.5px;
+    top: 470px;
+}
+
+.backToHomeButton{
+    position: fixed;
+    background: transparent;
+    width: 120px;
+    height: 19px;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(215, 25, 33, 1);
+    top: 540px;
+    left: 128px;
+}
+
+.orderReceivedHomeIndicatorPage{
+    position: absolute;
+    top: 108px;
+    width: 135px;
+    height: 5px;
+    left: 122px;
+}

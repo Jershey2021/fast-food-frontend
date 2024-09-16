@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+
+.productBar {
+    position: relative;
+    height: 40px;
+    width: 390px;
+    top: 40px;
+}
+
+.productSideBarMenuButton{
+    position: relative;
+    --background: transparent;
+    --box-shadow: transparent;
+}
+
+ion-menu-button{
+    position: relative;
+    left: 10px;
+    top: -5px;
+  }
+
+.productTwoLineIcon{
+    position: relative;
+    left: 0px;
+    top: 10px;
+    width: 27px;
+    height: 20px;
+    color: #d71921;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+.productCircleNotification {
+    position: relative;
+    width: 11.5px;
+    height: 11.5px;
+    background: #edbe4c;
+    border-radius: 50%;
+    top: -43.5px;
+    left: 39.5px;
+    z-index: 99;
+}
+
+.productOurFoodLabel{
+    position: relative;
+    top: -58px;
+    left: 70px;
+}
+
+.productAddToCartIcon{
+    position: relative;
+    width: 22.5px;
+    height: 19.12px;
+    top: -94.5px;
+    left: 330px;
+}
+
+.productSearchPage{
+    position: relative;
+    top: 38px;
+    height: 75px;
+}
+
+.productSearchBar{
+    position: relative;
+    top: 10px;
+    width: 333px;
+    height: 55px;
+    left: 20px;
+    line-height: 28px;
+    padding: 0.1rem;
+    padding-left: 3.2rem;
+    border: 1px solid#dee2e6;
+    border-radius: 16px;
+    outline: none;
+    background-color: #f8f9fa;
+    transition: 0.3s ease;
+    cursor: pointer;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+}
+
+.productSearchBar::placeholder {
+    color: #6c757d;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    position: relative;
+  }
+
+.productSearchIcon{
+    position: relative;
+    top: 17px;
+    color: #d71921;
+    z-index: 1;
+    right: 300px;
+    font-size: 24px;
+}
+
+.productFilterIcon{
+    position: relative;
+    width: 20px;
+    height: 22.51px;
+    left: 315px;
+    top: -30px;
+}
+
+.productFilterButtonPage{
+    position: relative;
+    top: 30px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+.productAllFilter{
+    position: relative;
+    top:  3px;
+    left: 18.5px;
+    --background: #D71921;
+    --border-radius: 16px;
+    --box-shadow: none;
+    height: 43px;
+    width: 50px;
+    padding: 11px, 16px, 11px, 16px;
+    gap: 10px;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: none;
+}
+
+.productBreakfastFilter{
+    position: relative;
+    top:  3px;
+    left: 18.5px;
+    --background: #DEE2E6;
+    --border-radius: 16px;
+    --box-shadow: none;
+    height: 43px;
+    width: 94px;
+    padding: 11px, 16px, 11px, 16px;
+    gap: 10px;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: none;
+    color: #6C757D;
+}
+
+.productChickenFilter{
+    position: relative;
+    top:  3px;
+    left: 18.5px;
+    --background: #DEE2E6;
+    --border-radius: 16px;
+    --box-shadow: none;
+    height: 43px;
+    width: 84px;
+    padding: 11px, 16px, 11px, 16px;
+    gap: 10px;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: none;
+    color: #6C757D;
+}
+
+.productSeafoodFilter{
+    position: relative;
+    top:  3px;
+    left: 18.5px;
+    --background: #DEE2E6;
+    --border-radius: 16px;
+    --box-shadow: none;
+    height: 43px;
+    width: 86px;
+    padding: 11px, 16px, 11px, 16px;
+    gap: 10px;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: none;
+    color: #6C757D;
+}
+
+.productBeefFilter{
+    position: relative;
+    top:  -51px;
+    left: 360px;
+    --background: #DEE2E6;
+    --border-radius: 21px;
+    --box-shadow: none;
+    height: 43px;
+    width: 61px;
+    padding: 11px, 16px, 11px, 16px;
+    gap: 10px;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: none;
+    color: #6C757D;
+}
+
+.foodProductPage{
+    position: relative;
+    top: 8px;
+    left: -22px;
+    height: 1300px;
+    padding: 20px;
+    width: 325px;
+}
+
+.foodProductGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.foodProductCategory {
+    position: relative;
+    left: 22px;
+    top: 13px;
+    border-radius: 16px;
+    width: 163px;
+    height: 250px;
+    background-color: #e9ecef;
+}
+
+
+.foodProductBestSeller img{
+    position: relative;
+    top: 35px;
+    left: 0px;
+    width: 136px;
+    height: 95px;
+}
+
+.productFoodLabel{
+    position: relative;
+    top: 57px;
+    left: 0px;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}
+
+.productChickenLabel{
+    position: relative;
+    top: 59px;
+    left: -17.5px;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}
+
+.productSorvetesPrimaveraLabel{
+    position: relative;
+    top: 57px;
+    left: 4px;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    z-index: 10;
+}
+
+.productChickenCategory {
+    position: relative;
+    top: 40px;
+    left: -40.5px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    color: black;
+}
+
+.productFriedChickenLabel{
+    position: relative;
+    top: 57px;
+    left: -19.8px;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    z-index: 10;
+}
+
+.productFriedChickenCategory {
+    position: relative;
+    top: 40px;
+    left: -40.5px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    color: black;
+}
+
+.productDessertCategory {
+    position: relative;
+    top: 40px;
+    left: -40.5px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    color: black;
+}
+
+.productCategory {
+    position: relative;
+    top: 40px;
+    left: -49px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    color: black;
+}
+
+.productPrice {
+    position: relative;
+    top: 32.5px;
+    left: -39.5px;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #d71921;
+}
+
+
+.productStarOne,
+.productStarTwo,
+.productStarThree,
+.productStarFour,
+.productHalfStar {
+  position: relative;
+  width: 13px;
+  height: 13px;
+  left: 35px;
+  top: -9.2px;
+  color: #ffc02e;
+  
+}
+  
+
+

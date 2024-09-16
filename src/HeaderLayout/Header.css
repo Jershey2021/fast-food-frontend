@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+ion-header {
+  height: 0px;
+}
+
+ion-toolbar {
+  height: 35px;
+}
+
+.time {
+  font-weight: 600;
+  position: relative;
+  left: 15px;
+  top: 7px;
+  font-size: 13px;
+  width: 45px;
+  height: 20px;
+}
+
+.iosLocation {
+  position: relative;
+  top: -30px;
+  left: 47px;
+  height: 12px;
+  width: 22px;
+  color: black;
+}
+
+.signal {
+  position: relative;
+  top: -27.5px;
+  left: 276px;
+  height: 16px;
+  width: 18px;
+  color: black;
+}
+.wifi {
+  position: relative;
+  top: -27.5px;
+  left: 280px;
+  height: 16px;
+  width: 18px;
+  color: black;
+}
+.battery {
+  position: relative;
+  top: -27.5px;
+  left: 285px;
+  height: 16px;
+  width: 18px;
+  color: black;
+}
+

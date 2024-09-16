@@ -1,0 +1,579 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+ion-header {
+  height: 0px;
+  --background: white;
+  --border: none;
+  --box-shadow: transparent;
+}
+
+ion-toolbar {
+  height: 35px;
+  --background: white;
+  --border: none;
+  --box-shadow: transparent;
+}
+
+.header-ios ion-toolbar:last-of-type {
+  --border-width: 0 0 0 ;
+}
+.time {
+  font-weight: 600;
+  position: relative;
+  left: 15px;
+  top: 7px;
+  font-size: 13px;
+  width: 45px;
+  height: 20px;
+}
+
+.iosLocation {
+  position: relative;
+  top: -32px;
+  left: 47px;
+  height: 12px;
+  width: 22px;
+  color: black;
+}
+
+.signal {
+  position: relative;
+  top: -27.5px;
+  left: 276px;
+  height: 16px;
+  width: 18px;
+  color: black;
+}
+.wifi {
+  position: relative;
+  top: -27.5px;
+  left: 280px;
+  height: 16px;
+  width: 18px;
+  color: black;
+}
+.battery {
+  position: relative;
+  top: -27.5px;
+  left: 285px;
+  height: 16px;
+  width: 18px;
+  color: black;
+}
+
+.menuBar {
+  position: relative;
+  height: 40px;
+  width: 390px;
+  top: 40px;
+}
+
+.SideBarMenuButton{
+  position: relative;
+  --background: transparent;
+  --box-shadow: transparent;
+}
+
+ion-menu-button{
+  position: relative;
+  top: -5px;
+  left: 10px;
+}
+
+
+.twoLineIcon{
+  position: relative;
+  left: 0px;
+  top: 10px;
+  width: 27px;
+  height: 20px;
+  color: #d71921;
+  margin-bottom: 20px;
+  z-index: -2;
+}
+
+.circleNotification {
+  position: relative;
+  width: 11.5px;
+  height: 11.5px;
+  background: #edbe4c;
+  border-radius: 50%;
+  top: -44px;
+  left: 39.5px;
+  z-index: 99;
+}
+
+.crownIcon {
+  position: relative;
+  width: 30px;
+  left: 100px;
+  top: -55.5px;
+}
+
+.points {
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  left: 40%;
+  top: -84.5px;
+  font-family: "Nunito", sans-serif;
+}
+
+.forward {
+  position: relative;
+  height: 25px;
+  width: 35px;
+  top: -131px;
+  left: 250px;
+  color: #d71921;
+}
+
+.userIcon {
+  position: relative;
+  border-radius: 50%;
+  top: -143px;
+  left: 280px;
+  width: 45px;
+  height: 44px;
+}
+
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background: #fff;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+  transform: translateX(0);
+}
+
+.sidebar.close {
+  transform: translateX(-100%);
+}
+
+.content-shift {
+  margin-left: 250px;
+  transition: margin-left 0.3s ease;
+}
+
+.closeSidebar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.logoPage {
+  position: relative;
+  top: 40px;
+  height: 105px;
+}
+
+.logo {
+  position: relative;
+  width: 67px;
+  height: 72px;
+  left: 22px;
+  top: 20px;
+}
+
+.anneoyong {
+  position: relative;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  top: -55px;
+  left: 102px;
+}
+
+.question {
+  position: relative;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  width: 240px;
+  top: -74px;
+  left: 102px;
+}
+
+.searchBar {
+  position: relative;
+  top: 35px;
+  height: 80px;
+}
+
+.search {
+  position: relative;
+  top: 13px;
+  width: 333px;
+  height: 55px;
+  left: 22px;
+  line-height: 28px;
+  padding: 0.1rem;
+  padding-left: 3.2rem;
+  border: 1px solid#dee2e6;
+  border-radius: 16px;
+  outline: none;
+  background-color: #f8f9fa;
+  transition: 0.3s ease;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+}
+
+.search::placeholder {
+  color: #6c757d;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  position: relative;
+}
+
+.bi-search {
+  color: #d71921;
+  z-index: 1;
+  position: relative;
+  right: 295px;
+  font-size: 21px;
+  top: 15px;
+}
+
+.specialOffersPage {
+  position: relative;
+  top: 30px;
+  height: 225px;
+}
+
+.specialOffers {
+  position: relative;
+  top: 13px;
+  font-family: "Nunito", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  left: 22px;
+}
+
+.viewAllButton {
+  position: relative;
+  color: #d71921;
+  background: transparent;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  top: -19px;
+  left: 285px;
+}
+
+.viewAllIcon {
+  position: relative;
+  top: -35px;
+  font-size: 15px;
+  left: 44px;
+}
+
+.specialDeal {
+  position: relative;
+  top: -40px;
+}
+
+.specialOfferOne {
+  position: relative;
+  width: 314px;
+  height: 138px;
+  border-radius: 20px;
+  border: 1px solid #a5a5a5;
+  overflow: hidden;
+  left: 22px;
+}
+
+.specialDealOne {
+  position: relative;
+}
+
+.logoPosition {
+  position: absolute;
+  left: 29px;
+  top: 1px;
+  z-index: 1;
+}
+
+.logoForDeal {
+  width: 40px;
+  height: 35px;
+  border-top-left-radius: 8px;
+}
+
+.specialOfferTwo {
+  position: relative;
+  height: 138px;
+  width: 314px;
+  top: -138px;
+  border: 1px solid #a5a5a5;
+  border-radius: 20px;
+  left: 345px;
+}
+
+.firstHalfCircle {
+  position: absolute;
+  background-color: white;
+  width: 10px;
+  height: 20px;
+  border-radius: 0 15px 15px 0px;
+  top: 60px;
+  left: 22px;
+}
+
+.secondHalfCircle {
+  position: absolute;
+  background-color: white;
+  width: 10px;
+  height: 20px;
+  border-radius: 15px 0px 0px 15px;
+  top: 60px;
+  left: 326px;
+}
+
+.thirdHalfCircle {
+  position: absolute;
+  background-color: white;
+  width: 10px;
+  height: 20px;
+  border-radius: 0 15px 15px 0px;
+  top: 60px;
+  left: 345px;
+}
+
+.foodCategory {
+  position: relative;
+  top: 30px;
+  height: 375px;
+}
+
+.category {
+  position: relative;
+  font-family: "Nunito", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  left: 22px;
+  top: 0px;
+}
+
+.chickenCategory {
+  position: relative;
+  top: 8px;
+  left: 22px;
+  border-radius: 20px;
+  width: 200px;
+  height: 300px;
+  background-position: center;
+  background-size: auto;
+}
+
+.seaFoodsCategory {
+  position: absolute;
+  top: 46px;
+  left: 230px;
+  border-radius: 20px;
+  width: 200px;
+  height: 300px;
+  background-position: center;
+  background-size: auto;
+}
+
+.chickenLabel {
+  position: relative;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: white;
+  top: -55px;
+  left: 38px;
+}
+
+.chickenRecipes {
+  position: relative;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  color: white;
+  top: -63px;
+  left: 39px;
+}
+
+.seaFoodsLabel {
+  position: relative;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: white;
+  top: -125px;
+  left: 249px;
+}
+
+.seafoodsRecipes {
+  position: relative;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  color: white;
+  top: -143px;
+  left: 249px;
+}
+
+.whatNew {
+  position: relative;
+  top: 45px;
+  height: 265px;
+}
+
+.whatsNewLabel {
+  position: relative;
+  top: 0px;
+  left: 22px;
+  font-family: "Nunito", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.foodMenu {
+  position: relative;
+  width: 338px;
+  height: 200.5px;
+  left: 22px;
+  top: 10px;
+  border-radius: 20px;
+}
+
+.foodMenuLogo {
+  position: relative;
+  width: 51px;
+  height: 55.14px;
+  top: -51px;
+  left: 303px;
+}
+
+.foodMenuBlackCircle {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  background-color: black;
+  border-radius: 50%;
+  top: -65px;
+  left: 305px;
+}
+
+.mostPopularPage {
+  position: relative;
+  top: 35px;
+  left: -22px;
+  height: 660px;
+  padding: 20px;
+  width: 325px;
+}
+
+.mostPopularLabel {
+  position: relative;
+  top: 0px;
+  left: 22px;
+  font-family: "Nunito", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.mostPopularGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.mostPopularFood {
+  position: relative;
+  left: 22px;
+  top: 13px;
+  border-radius: 16px;
+  width: 163px;
+  height: 250px;
+  background-color: #e9ecef;
+}
+
+.bestSeller img {
+  position: relative;
+  top: 45px;
+  left: 13px;
+  width: 136px;
+  height: 95px;
+}
+
+.mostPopularFoodLabel {
+  position: relative;
+  top: 65px;
+  left: 16px;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.mostPopularCategory {
+  position: relative;
+  top: 48px;
+  left: 16px;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+}
+
+.mostPopularPrice {
+  position: relative;
+  top: 40px;
+  left: 16px;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #d71921;
+}
+
+.starOne,
+.starTwo,
+.starThree,
+.starFour,
+.halfStar {
+  position: relative;
+  width: 13px;
+  height: 13px;
+  left: 85px;
+  top: -1.5px;
+  color: #ffc02e;
+}
+.buttonOrder {
+  position: relative;
+  top: 50px;
+  height: 200px;
+}
+
+.orderNow {
+  position: fixed;
+  top: 540px;
+  left: 195px;
+  width: 161px;
+  height: 55px;
+  border-radius: 18px;
+  border: none;
+  background-color: #d71921;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+}
+
+ion-nav-link{
+  --background:transparent;
+}
+
+ion-menu::backdrop{
+  background: #6c757db7;
+  }

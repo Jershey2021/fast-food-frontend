@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.menuPage{
+    position: relative;
+    top: 35px;
+    width: 300px;
+    height: 750px;
+}
+
+
+.userMenu{
+    position: relative;
+    top: 10px;
+    height: 70px;
+}
+
+.menuUserProfile{
+    position: relative;
+    left: 10px;
+    width: 65px;
+    height: 62px;
+    border-radius: 50%;
+}
+
+.menuCrown{
+    position: relative;
+    width: 28px;
+    height: 28px;
+}
+
+.menuToLoyaltyPointsScreen{
+    position: relative;
+    width: 30px;
+    height: 25px;
+    left: 40px;
+    top: 2px;
+    background: transparent;
+}
+
+.menuPointsButton{
+    position: relative;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    width: 120px;
+    height: 28px;
+    left: 45px;
+    top: 7px;
+    background: transparent;
+    color: #000000;
+}
+
+.menuForwardIcon{
+    position: relative;
+    top: 5px;
+    
+}
+
+.menuIconForward{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 40px;
+    color: #D71921;
+    background: transparent;
+    font-size: 20px;
+    top: 6px;
+
+}
+
+.menuUserInfo{
+    position: relative;
+    top: 10px;
+    height: 70px;
+}
+
+.menuUserFullName{
+    position: relative;
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    left: 10px;
+}
+
+.menuUserNumber{
+    position: relative;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6C757D;
+    left: 10px;
+    top: -10px;
+}
+
+.menuButtonGrid {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+.menuButtons {
+    display: flex;
+    align-items: center;
+
+}
+
+.menuRouterLink{
+    text-decoration: none;
+    color: #000000;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: none;
+}
+  
+.menuIcons {
+    position: relative;
+    left: 10px;
+    margin-right: 10px;
+    width: 25px;
+    height: 28px; 
+}
+
+.menuHomeButton {
+    display: flex;
+    --background: transparent;
+    --color: #000000; 
+    --box-shadow: transparent;
+    align-items: center; 
+    
+}
+
+.menuNotificationCircle{
+    position: relative;
+    width: 17.5px;
+    height: 17.5px;
+    background-color: #EDBE4C;
+    border-radius: 50%;
+    top: -2px;
+    left: 100px;
+}
+
+.menuNotificationNumber{
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    left: 5px;
+    top: 2px;
+    color: white;
+}
+
+.menuHrLine{
+    position: relative;
+    left: 10px;
+    width: 270px;
+    top: -3px;
+}
+
+.menuOrderInformation{
+    position: relative;
+    top: -3px;
+}
+
+.menuYourOrderGrid {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+.menuYourOrderButtons{
+    display: flex;
+    align-items: center;
+
+}
+
+.menuRouterLink{
+    text-decoration: none;
+    color: #000000;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: none;
+}
+  
+.menuYourIcons {
+    position: relative;
+    left: 10px;
+    margin-right: 10px;
+    width: 25px;
+    height: 28px; 
+ 
+}
+
+.menuMyAccountIcons {
+    position: relative;
+    left: 10px;
+    margin-right: 10px;
+    width: 25px;
+    height: 28px;
+    color: #DEE2E6;
+ 
+}
+
+.menuYourOrderBtn {
+    display: flex;
+    --background: transparent;
+    --color: #000000; 
+    --box-shadow: transparent;
+    align-items: center; 
+    
+}
+
+.menuMyNotificationCircle{
+    position: relative;
+    width: 17.5px;
+    height: 17.5px;
+    background-color: #EDBE4C;
+    border-radius: 50%;
+    top: -2px;
+    left: 118px;
+}
+
+.menuMyNotificationNumber{
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    left: 5.5px;
+    top: 2px;
+    color: white;
+}
+
+.logoutPage{
+    position: relative;
+    top: 40px;
+}
+
+.logOut{
+    position: relative;
+    left: 10px;
+    width: 165px;
+    height: 45px;
+    --background: #D71921;
+    --border-radius: 16px;
+    font-size: 14px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    text-transform: none;
+}
+

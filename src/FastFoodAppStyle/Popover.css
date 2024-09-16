@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+.popoverMoonPage{
+    position: relative;
+    left: 117px;
+    top: 15px;
+}
+
+.popoverFullMoon{
+    position: relative;
+    width: 64.15px;
+    height: 64.15px;
+}
+
+.popoverHalfMoon{
+    position: relative;
+    width: 37.06px;
+    height: 64.15px;
+    left: -36.5px;
+}
+
+.popoverLongSleeve{
+    position: relative;
+    width: 39.27px;
+    height: 39.35px;
+    left: -101px;
+    top: 10px;
+    transform: rotate(-4deg);
+}
+
+.popoverSleeve{
+    position: relative;
+    width: 26.33px;
+    height: 31.97px;
+    transform: rotate(-4deg);
+    left: -120.5px;
+    top: -0.5px;
+    z-index: 10;
+}
+
+.popoverLikeHand{
+    position: relative;
+    width: 38.22px;
+    height: 48.23px;
+    transform: rotate(-1deg);
+    left: -137px;
+    top: -16px;
+}
+
+.popoverSuccessfullPage, .popoverQuestionPage, .popoverProceedPage, .popoverAddMorePage{
+    position: relative;
+    top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.popoverSuccessfullyAddedLabel{
+    position: relative;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.popoverQuestionLabel{
+    position: relative;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(108, 117, 125, 1);
+}
+
+.popoverProceedButton{
+    position: relative;
+    top: 18px;
+    width: 213px;
+    height: 45px;
+    border-radius: 16px;
+    background-color: rgba(215, 25, 33, 1);
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.popoverAddMoreButton{
+    position: relative;
+    top: 35px;
+    background: transparent;
+    color: rgba(215, 25, 33, 1);
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+
